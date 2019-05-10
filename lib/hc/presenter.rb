@@ -1,3 +1,5 @@
+require "hc/presenter/base"
+require "hc/presenter/helper_methods"
 require "hc/presenter/version"
 
 module HC
