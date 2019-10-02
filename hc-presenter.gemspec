@@ -5,7 +5,7 @@ require "hc/presenter/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "hc-presenter"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Jack Hayter"]
   spec.email         = ["jack@hockey-community.com"]
 
