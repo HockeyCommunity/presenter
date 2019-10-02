@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-module HC
+module Hc
   module Presenter
 
     # Creates a platform for other presenters to serialize objects into hashes
@@ -33,7 +33,7 @@ module HC
         if @controller_context
           @controller_context.present(object, options: options || @options, method: method)
         else
-          HC::Presenter.present(object, method: method, options: options)
+          Hc::Presenter.present(object, method: method, options: options)
         end
       end
 

@@ -2,7 +2,7 @@ require "hc/presenter/base"
 require "hc/presenter/helper_methods"
 require "hc/presenter/version"
 
-module HC
+module Hc
   module Presenter
 
     def self.present(object, klass: nil, controller_context: nil, method: nil, options: {})
