@@ -29,11 +29,11 @@ module Hc
         end
       end
 
-      def present(object, options: nil, method: nil)
+      def present(object, klass: nil, options: nil, method: nil)
         if @controller_context
-          @controller_context.present(object, options: options || @options, method: method)
+          @controller_context.present(object, klass: klass, options: options || @options, method: method)
         else
-          Hc::Presenter.present(object, method: method, options: options)
+          Hc::Presenter.present(object, klass: klass, method: method, options: options)
         end
       end
 
